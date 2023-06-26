@@ -20,7 +20,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'axiangcoding', // Usually your GitHub org/user name.
   projectName: 'AXBot-Doc', // Usually your repo name.
-  deploymentBranch: 'master',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
