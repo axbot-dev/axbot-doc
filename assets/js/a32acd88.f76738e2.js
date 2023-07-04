@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaxbot_doc=self.webpackChunkaxbot_doc||[]).push([[4464],{84:o=>{o.exports=JSON.parse('{"permalink":"/AXBot-Doc/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

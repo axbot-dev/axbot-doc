@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaxbot_doc=self.webpackChunkaxbot_doc||[]).push([[2792],{1602:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/axbot-doc/blog/tags/hola","allTagsPath":"/axbot-doc/blog/tags","count":1}')}}]);
