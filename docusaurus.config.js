@@ -102,7 +102,7 @@ const config = {
                         label: '赞助',
                     },
                     {
-                        href: 'https://github.com/axiangcoding/AXBot',
+                        href: 'https://github.com/axbot-dev/axbot',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -115,8 +115,8 @@ const config = {
                         title: '文档',
                         items: [
                             {
-                                label: '使用文档',
-                                to: '/docs/document',
+                                label: '用户手册',
+                                to: '/docs/document/user-manual',
                             },
                         ],
                     },
