@@ -61,7 +61,7 @@ const config = {
             },
             announcementBar: {
                 id: 'announcementBar',
-                content: `当前文档正在构建中，敬请期待`,
+                content: `基于v2的文档正在构建中，将在AXBot v2完成后正式发布`,
                 isCloseable: false,
             },
             navbar: {
