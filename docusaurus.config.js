@@ -42,14 +42,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/axbot-dev/axbot-doc/tree/master/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -80,11 +73,34 @@ const config = {
                 items: [
                     {
                         type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
+                        sidebarId: 'quickStartSidebar',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: '快速开始',
                     },
-                    {to: '/blog', label: 'Blog', position: 'left'},
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'docsSidebar',
+                        position: 'left',
+                        label: '文档',
+                    },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'apiSidebar',
+                        position: 'left',
+                        label: 'API接口',
+                    },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'caseSidebar',
+                        position: 'left',
+                        label: '案例展示',
+                    },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'sponsorSidebar',
+                        position: 'left',
+                        label: '赞助',
+                    },
                     {
                         href: 'https://github.com/axiangcoding/AXBot',
                         label: 'GitHub',
@@ -99,8 +115,8 @@ const config = {
                         title: '文档',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: '使用文档',
+                                to: '/docs/document',
                             },
                         ],
                     },
@@ -108,26 +124,14 @@ const config = {
                         title: '社区',
                         items: [
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                label: 'GitHub 讨论区',
+                                href: 'https://github.com/axbot-dev/axbot/discussions',
                             },
                         ],
                     },
                     {
                         title: '更多',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
                             {
                                 label: 'GitHub',
                                 href: 'https://github.com/facebook/docusaurus',
