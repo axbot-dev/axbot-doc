@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '功能完备',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        从娱乐功能到管理功能，从游戏数据到经济系统，AXBot拥有丰富的功能
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '专注业务',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        AXBot不是一个机器人框架，而是一个拥有完善业务的机器人，已经为你做好了大部分工作
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '开发简单',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        AXBot基于成熟的SpringBoot构建，方便二次开发，快速上手
       </>
     ),
   },
