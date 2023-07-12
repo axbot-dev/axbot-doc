@@ -65,7 +65,7 @@ const config = {
                 isCloseable: false,
             },
             navbar: {
-                title: 'AXBot 文档',
+                title: 'AXBot',
                 logo: {
                     alt: 'AXBot logo',
                     src: 'img/logo.svg',
@@ -89,12 +89,12 @@ const config = {
                         position: 'left',
                         label: 'API接口',
                     },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'caseSidebar',
-                        position: 'left',
-                        label: '案例展示',
-                    },
+                    // {
+                    //     type: 'docSidebar',
+                    //     sidebarId: 'caseSidebar',
+                    //     position: 'left',
+                    //     label: '案例展示',
+                    // },
                     {
                         type: 'docSidebar',
                         sidebarId: 'sponsorSidebar',
