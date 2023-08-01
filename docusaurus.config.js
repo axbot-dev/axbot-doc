@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'AXBot',
-    tagline: 'AXBot是一个在Kook、QQ等社交平台上可用的机器人。她不仅具备丰富的交互功能，还专注于为游戏爱好者提供各种游戏相关的服务。AXBot的终极目标是协助玩家获取游戏数据、分析游戏数据，智能回答游戏攻略，并实现社交平台与游戏的无缝连接。',
+    tagline: 'AXBot是一个在Kook、QQ等社交平台上可用的聊天机器人。她不仅具备丰富的交互功能，还专注于为游戏爱好者提供各种游戏相关的服务。AXBot的终极目标是协助玩家获取游戏数据、分析游戏数据，智能回答游戏攻略，并实现社交平台与游戏的无缝连接。',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -61,7 +61,7 @@ const config = {
             },
             announcementBar: {
                 id: 'announcementBar',
-                content: `基于v2的文档正在构建中，将在AXBot v2完成后正式发布`,
+                content: `基于v2的文档正在构建中，将在AXBot v2完成后正式启用，敬请期待`,
                 isCloseable: false,
             },
             navbar: {
@@ -118,6 +118,10 @@ const config = {
                                 label: '用户手册',
                                 to: '/docs/document/user-manual',
                             },
+                            {
+                                label:'API 接口',
+                                to:'/docs/api-docs'
+                            }
                         ],
                     },
                     {
@@ -134,7 +138,7 @@ const config = {
                         items: [
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/axbot-dev/axbot',
                             },
                         ],
                     },
