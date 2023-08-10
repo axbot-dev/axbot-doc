@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>AXBot</ShortName>
+  <Description>Search AXBot</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://axbot-dev.github.io/axbot-doc/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://axbot-dev.github.io/axbot-doc/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://axbot-dev.github.io/axbot-doc/opensearch.xml" />
+  <moz:SearchForm>https://axbot-dev.github.io/axbot-doc/</moz:SearchForm>
+</OpenSearchDescription>
