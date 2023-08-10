@@ -57,16 +57,24 @@ AXBot机器人实行的是”赞助即订阅“的策略，如需了解更多内
 在正式向AXBot项目发起贡献之前，你可以先在你的开发环境中启动AXBot项目，这将有利于你理解和入门AXBot项目。
 在正式拉取代码到本地之前，你需要准备好以下内容：
 
-- 安装 Git
-- 安装 JDK 17
-- （可选）安装 Docker
-- （可选）安装 MySQL, Redis, RabbitMQ
-- 一个可用的机器人（下文将以KOOK机器人为例）
+- 安装 [Git](https://git-scm.com/downloads)。Git用来下载AXBot代码和一些必要的工具
+- 安装 [JDK 17](https://adoptium.net/)。JDK用来编译和运行AXBot的App项目。App项目是由Java编写的，且要求JDK版本大于17
+- （可选）安装 [Docker](https://www.docker.com/)。Docker用来运行AXBot的一些依赖服务，如MySQL, Redis, RabbitMQ。
+  当然这是可选项，如果你不想这么做，你也可以自行安装这些服务
+- （可选）安装 [MySQL](https://www.mysql.com/cn/)，[Redis](https://redis.io/)，[RabbitMQ](https://www.rabbitmq.com/)
+  。这些服务是AXBot的依赖服务，如果你不想使用Docker，你可以自行安装这些服务
+- 可用的机器人应用。KOOK的机器人创建和调试方便，你可以到 [KOOK开发者平台](https://developer.kookapp.cn/app/index)
+  新建一个机器人应用
 
-你可以在五分钟之内在本地环境中启动一个 Axbot 服务。
+在完成了准备工作后，你已经具备了一切可以启动项目的前置条件
 
-```bash
-git clone https://github.com/axbot-dev/axbot
-```
+接下来，你可以通过以下步骤启动项目
+
+1. 克隆AXBot工程到本地开发环境
+    ```bash 
+    git clone https://github.com/axbot-dev/axbot
+    ```
+
+2.
 
 ### 贡献代码
