@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'AXBot',
-    tagline: 'AXBot是一个在Kook、QQ等社交平台上可用的聊天机器人。她不仅具备丰富的交互功能，还专注于为游戏爱好者提供各种游戏相关的服务。AXBot的终极目标是协助玩家获取游戏数据、分析游戏数据，智能回答游戏攻略，并实现社交平台与游戏的无缝连接。',
+    tagline: 'AXBot是一个在Kook、QQ频道等社交平台上可用的聊天机器人。她具备丰富的交互功能，并专注于为游戏爱好者提供各种游戏相关的服务',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
