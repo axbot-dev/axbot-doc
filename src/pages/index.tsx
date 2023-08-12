@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/document/quickstart">
-              ⏱️ 用五分钟了解下AXBot
+              ⏱️ 用10分钟了解下AXBot
           </Link>
         </div>
       </div>
