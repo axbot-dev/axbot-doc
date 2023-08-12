@@ -73,12 +73,6 @@ const config = {
                 items: [
                     {
                         type: 'docSidebar',
-                        sidebarId: 'quickStartSidebar',
-                        position: 'left',
-                        label: '快速开始',
-                    },
-                    {
-                        type: 'docSidebar',
                         sidebarId: 'docsSidebar',
                         position: 'left',
                         label: '文档',
